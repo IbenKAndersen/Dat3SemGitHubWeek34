@@ -14,7 +14,7 @@ Exercises: animal and customer_web
 
 # Thursday 22/08/2019
 Exercise: employee
-- Status: Exercise 1 done (except JUnit) 
+- Status: Exercise 1 done (except JUnit), exercise 2 done, tried to make exercise 3 but it doesn't work in browser
 - Solutions are in the folder 03-thursday-excercises
 - Learning goals: implementing Data Transfer Objects (DTO's) and serialize between java objects and Json. Deploying Web Application. 
 
