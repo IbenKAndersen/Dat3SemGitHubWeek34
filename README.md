@@ -22,5 +22,5 @@ Exercise: employee
 Exercise: bank_customer
 - Done with all exercises
 - Solutions are in the folder 04-friday-excercises
-- Learning goals: Same as tuesdag-thursdag with a few extra challenges. 
+- Learning goals: same as tuesdag-thursdag with a few extra challenges. 
 
