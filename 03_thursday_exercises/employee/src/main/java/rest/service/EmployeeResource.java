@@ -1,7 +1,7 @@
 package rest.service;
 
-import entities.Employee;
-import facades.EmployeeFacade;
+import entity.Employee;
+import facade.EmployeeFacade;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

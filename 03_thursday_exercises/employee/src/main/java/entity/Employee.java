@@ -1,4 +1,4 @@
-package entities;
+package entity;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
@@ -34,5 +34,12 @@ public class Employee implements Serializable {
     public void setId(Long id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Employee: " + name + ", address: " + address + ", salary: " + salary;
+    }
+    
+    
     
 }
