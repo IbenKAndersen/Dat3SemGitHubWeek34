@@ -39,6 +39,14 @@ public class Employee implements Serializable {
     public String toString() {
         return "Employee: " + name + ", address: " + address + ", salary: " + salary;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
     
     
     

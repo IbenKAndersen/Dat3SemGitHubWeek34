@@ -72,7 +72,7 @@ public class EmployeeFacade {
     }
 
     /* Exercise 1.5.d. */
-    public List<Employee> getEmployeesWithHighestSalary(int salary) {
+    public List<Employee> getEmployeesWithHighestSalary() {
         EntityManager em = emf.createEntityManager();
         try {
             TypedQuery<Employee> query = em.createQuery("SELECT e FROM Employee e WHERE e.salary = (SELECT MAX(z.salary) FROM Employee z)", Employee.class);

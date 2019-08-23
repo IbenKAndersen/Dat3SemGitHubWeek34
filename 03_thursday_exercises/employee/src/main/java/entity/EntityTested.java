@@ -14,10 +14,10 @@ public class EntityTested {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
         EntityManager em = emf.createEntityManager();
         try{
-            Employee e1 = new Employee("Holte Holmen", "Holmen 5", 21000);
-            Employee e2 = new Employee("Helma Holmen", "Holmen 5", 21000);
+            Employee e1 = new Employee("Holte", "Holmen 5", 21000);
+            Employee e2 = new Employee("Helma", "Holmen 5", 21000);
             Employee e3 = new Employee("Gert Gertsen", "Holmen 90", 21000);
-            Employee e4 = new Employee("Gerda Gertsen", "Holmen 90", 21000);
+            Employee e4 = new Employee("Gerda Gertsen", "Holmen 90", 23000);
             em.getTransaction().begin(); //begin transaction
             em.persist(e1);
             em.persist(e2);
