@@ -14,13 +14,13 @@ Exercises: animal and customer_web
 
 # Thursday 22/08/2019
 Exercise: employee
-- Not done yet
+- Status: Exercise 1 done (except JUnit), exercise 2 and 3 done and tested, not deployed yet due to last minute issues with servlet
 - Solutions are in the folder 03-thursday-excercises
 - Learning goals: implementing Data Transfer Objects (DTO's) and serialize between java objects and Json. Deploying Web Application. 
 
 # Friday 23/08/2019
 Exercise: bank_customer
-- Done with all exercises
+- Status: Done with all exercises
 - Solutions are in the folder 04-friday-excercises
 - Learning goals: same as tuesdag-thursdag with a few extra challenges. 
 
