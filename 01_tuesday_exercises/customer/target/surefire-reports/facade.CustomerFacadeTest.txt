@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: facade.CustomerFacadeTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.858 sec <<< FAILURE!
+facade.CustomerFacadeTest.testFindByLastName()  Time elapsed: 0.039 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[Costumer: Carla Carlsen,]> but was: <[]>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at facade.CustomerFacadeTest.testFindByLastName(CustomerFacadeTest.java:67)
+
+facade.CustomerFacadeTest.testAllCustomers()  Time elapsed: 0.007 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[]> but was: <[Costumer: Pepper Potts,, Costumer: Peter Parker,, Costumer: Tony Stark,, Costumer: Steven Strange,]>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at facade.CustomerFacadeTest.testAllCustomers(CustomerFacadeTest.java:92)
+
+facade.CustomerFacadeTest.testAddCustomer()  Time elapsed: 0.039 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: entity.Customer@6f63b475<Costumer: Thor Thorsen,> but was: entity.Customer@31c7528f<Costumer: Thor Thorsen,>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at facade.CustomerFacadeTest.testAddCustomer(CustomerFacadeTest.java:106)
+
