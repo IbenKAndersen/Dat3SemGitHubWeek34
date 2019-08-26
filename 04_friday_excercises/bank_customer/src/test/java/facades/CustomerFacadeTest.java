@@ -21,7 +21,7 @@ public class CustomerFacadeTest {
     public CustomerFacadeTest() {
     }
 
-    @BeforeClass
+    @BeforeClass //kører en gang før hver test
     public static void setUpClass() {
     }
 
@@ -29,7 +29,7 @@ public class CustomerFacadeTest {
     public static void tearDownClass() {
     }
 
-    @Before
+    @Before //kører før hver eneste metoder
     public void setUp() {
     }
 
